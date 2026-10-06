@@ -1,0 +1,85 @@
+/* Estilos generales */
+body{
+    margin: 0;
+}
+/* Estilos del encabezado */
+header{
+    width: 100%;
+    height: 180px;
+}
+header img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+/* Estilos del menu */
+nav{
+    background-color: #333333;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    position: relative;
+}
+nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+nav a:hover{
+    background-color: #555;
+}
+/*estilos del submenu*/
+nav li ul{
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 180px;
+}
+nav li:hover ul{
+    display: block;
+}
+/*Estilos de la pagina*/
+footer{
+    background-color:#333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+/*Estilos para el cuerpo de la pagina*/
+section{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    min-width: 350px;
+}
+section img{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+.principal{
+    width: 70%;
+    background-color: #eeee;
+    padding: 20px;
+    border: 2px solid #cccc;
+}
+.secundario{
+      width: 30%;
+    background-color: #eeee;
+    padding: 20px;
+    border: 2px solid #cccc;
+}
